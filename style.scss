@@ -1,0 +1,19 @@
+// 1. Premenné (Variables) - Toto prepíše základný Bootstrap
+$primary: #007aff;    // Typická Apple modrá pre macOS nadšencov
+$secondary: #5856d6;
+$dark: #1c1c1e;
+$light: #f2f2f7;
+$body-bg: #ffffff;
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// 2. Import Bootstrapu
+@import "bootstrap/scss/bootstrap";
+
+// 3. Vlastné úpravy (Custom CSS)
+.navbar-brand {
+    letter-spacing: -1px;
+}
+
+header {
+    background: linear-gradient(135deg, $primary 0%, $secondary 100%);
+}
