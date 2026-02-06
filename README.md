@@ -1,3 +1,5 @@
+# 📄 Na stránke sa pracuje....
+
 # 📄 Profesionálny Životopis
 
 Moderný, responzívny životopis vytvorený pomocou najnovších technológií front-end vývoja. Projekt je nasadený cez GitHub Actions a beží na GitHub Pages.
