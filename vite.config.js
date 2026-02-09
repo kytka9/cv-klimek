@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/cv-klimek/',
+  base: './cv-klimek/',
   build: {
     rollupOptions: {
       input: {
