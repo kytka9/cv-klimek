@@ -5,45 +5,26 @@
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-Profesionálny, vysoko výkonný online životopis navrhnutý s dôrazom na čistý kód, rýchlosť a moderný front-end stack.
+A professional, high-performance online resume designed with a focus on clean code, speed, and a modern front-end stack.
 
 ## 🔗 Live Preview
-Projekt si môžete pozrieť naživo tu: [**kytka9.github.io/cv-klimek**](https://kytka9.github.io/cv-klimek/)
+View the live project here: [**kytka9.github.io/cv-klimek**](https://kytka9.github.io/cv-klimek/)
 
-## 🛠️ Technický Stack
-* **Vite.js** – Ultra rýchly build nástroj pre moderný web.
-* **SASS (SCSS)** – Modulárne stylovanie s využitím premenných a mixinov.
-* **Bootstrap 5** – Moderný grid systém a komponenty pre plnú responzivitu.
-* **FontAwesome & Devicon** – Vizuálna prezentácia technológií pomocou ikon.
-* **GitHub Actions** – Implementácia **CI/CD** potrubia pre automatizované testovanie a nasadenie.
+## 🛠️ Technical Stack
+* **Vite.js** – Next-generation frontend tooling for ultra-fast development.
+* **SASS (SCSS)** – Modular styling using variables and mixins for maintainability.
+* **Bootstrap 5** – Robust grid system and components ensuring full responsiveness.
+* **FontAwesome & Devicon** – Scalable vector icons for professional tech presentation.
+* **GitHub Actions** – **CI/CD** pipeline integration for automated testing and deployment.
 
-## 💡 Kľúčové vlastnosti
-- **Mobile-First Design**: Stránka je plne optimalizovaná pre smartfóny, tablety aj desktopy.
-- **Multilingual Support**: Implementovaná podpora pre slovenskú a anglickú verziu.
-- **Optimized Assets**: Využitie moderných formátov a kompresie pre bleskové načítanie.
-- **Semantic HTML5**: Dôraz na prístupnosť a SEO štruktúru.
+## 💡 Key Features
+- **Mobile-First Design**: Optimized for seamless viewing on smartphones, tablets, and desktops.
+- **Multilingual Support**: Built-in support for Slovak and English localizations.
+- **Optimized Performance**: Minimized assets and optimized build process for lightning-fast load times.
+- **Semantic HTML5**: Focused on accessibility and structured SEO best practices.
 
-## 📦 Inštalácia a spustenie
-Ak si chcete projekt vyskúšať lokálne:
+## 📦 Local Development
+To run this project locally:
 1. `git clone https://github.com/kytka9/cv-klimek.git`
 2. `npm install`
 3. `npm run dev`
-
-
-
-# 📄 Na stránke sa pracuje....
-
-# 📄 Profesionálny Životopis
-
-Moderný, responzívny životopis vytvorený pomocou najnovších technológií front-end vývoja. Projekt je nasadený cez GitHub Actions a beží na GitHub Pages.
-
-## 🚀 Demo
-Sledujte moju stránku naživo: [https://kytka9.github.io/cv-klimek/](https://kytka9.github.io/cv-klimek/)
-
-## 🛠️ Použité technológie
-* **Node.js & NPM** - Správa balíčkov a prostredia
-* **Vite** - Build nástroj a vývojový server
-* **Bootstrap 5** - CSS framework pre responzívny dizajn
-* **SASS** - Pokročilé stylovanie a správa farieb
-* **Devicon** - Ikonky programátorských technológií
-* **GitHub Actions** - Automatizovaný deployment (CI/CD)
