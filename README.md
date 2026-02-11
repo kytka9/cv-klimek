@@ -1,11 +1,10 @@
 # 📄 Modern Responsive Portfolio & CV
 
-[![Build and Deploy](https://github.com/kytka9/cv-klimek/actions/workflows/deploy.yml/badge.svg)](https://github.com/kytka9/cv-klimek/actions)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen)](https://kytka9.github.io/cv-klimek/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-A professional, high-performance online resume designed with a focus on clean code, speed, and a modern front-end stack.
+A professional online resume designed with a focus on clean code, speed, and a modern front-end stack.
 
 ## 🔗 Live Preview
 View the live project here: [**kytka9.github.io/cv-klimek**](https://kytka9.github.io/cv-klimek/)
