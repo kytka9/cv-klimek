@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Ján Klimek | Projekty</title>
+
+
+
 </head>
 
 <body>
@@ -14,7 +17,7 @@
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">JÁN KLIMEK</a>
             <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="profile.html">Profil</a>
+                <a class="nav-link" href="index.html">Profil</a>
                 <a class="nav-link" href="projects.html">Projekty</a>
                 <a class="nav-link" href="certificates.html">Certifikáty</a>
                 <a class="nav-link" href="contact.html">Kontakt</a>
@@ -34,6 +37,91 @@
         </div>
     </header>
 
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <!-- Colorado Avalanche -->
+                    <div class="card mb-4 border-0 shadow-sm p-4">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                            <h5 class="fw-bold mb-0">Colorado Avalanche FansHub</h5>
+                            <div class="tech-icons d-flex align-items-center gap-2">
+                                <i class="fab fa-html5 fs-3" style="color: #e34f26;" title="HTML5"></i>HTML
+                                <i class="fab fa-css3-alt fs-3" style="color: #1572b6;" title="CSS3"></i>CSS
+                                <i class="fab fa-js fs-3"
+                                    style="color: #f7df1e; background-color: #000; line-height: 1; border-radius: 2px;"
+                                    title="JavaScript"></i>JavaScript
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            Interaktívna webová platforma pre fanúšikov NHL. Implementácia responzívneho dizajnu,
+                            herných prvkov a dynamického obsahu.
+                        </p>
+                        <ul class="project-features">
+                            <li>custom parallax efekty</li>
+                            <li>responzívny dizajn (Burgundy & Blue téma)</li>
+                            <li>interaktívny herný modul a kvíz</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://kytka9.github.io/Colorado_Avalanche_fanshub/" target="_blank"
+                                class="btn btn-sm btn-outline-primary me-2">Live View</a>
+                            <a href="https://github.com/kytka9/Colorado_Avalanche_fanshub" target="_blank"
+                                class="btn btn-sm btn-outline-dark">GitHub Repository</a>
+                        </div>
+                    </div>
+
+                    <!-- Resume -->
+                    <div class="card mb-4 border-0 shadow-sm p-4">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                            <h5 class="fw-bold mb-0">Personal Portfolio & CV</h5>
+                            <div class="tech-icons d-flex align-items-center gap-3 flex-wrap">
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="fab fa-html5 fs-3" style="color: #e34f26;" title="HTML5"></i>
+                                    <span class="small fw-bold">HTML</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="fab fa-sass fs-3" style="color: #cc6699;" title="SASS"></i>
+                                    <span class="small fw-bold">SASS</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="fab fa-bootstrap fs-3" style="color: #7952b3;" title="Bootstrap"></i>
+                                    <span class="small fw-bold">Bootstrap</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="fas fa-bolt fs-3" style="color: #ffc107;" title="Vite.js"></i>
+                                    <span class="small fw-bold">Vite</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-muted">
+                            Moderný životopis postavený na modernom build systéme <strong>Vite.js</strong>.
+                            Využíva <strong>SASS</strong> pre modulárne štýlovanie a Bootstrap pre responzivitu.
+                            Projekt je optimalizovaný pre rýchle načítanie a čistý kód.
+                        </p>
+                        <ul class="project-features">
+                            <li><strong>Slovenská a anglická lokalizácia</strong> (prepínanie jazykov)</li>
+                            <li><strong>Modulárna štruktúra SASS</strong> pre jednoduchú údržbu štýlov</li>
+                            <li><strong>Optimalizácia obrázkov a assetov</strong> cez Vite.js pre bleskové načítanie
+                            </li>
+                            <li><strong>Plne responzívny dizajn</strong> testovaný na mobilných zariadeniach a tabletoch
+                            </li>
+                            <li><strong>Automatizovaný Deployment</strong> cez GitHub Actions na GitHub Pages</li>
+                            <li><strong>SEO optimalizácia</strong> (meta tagy, sémantické HTML5 elementy)</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://kytka9.github.io/portfolio/" target="_blank"
+                                class="btn btn-sm btn-outline-primary me-2">Live View</a>
+                            <a href="https://github.com/kytka9/portfolio" target="_blank"
+                                class="btn btn-sm btn-outline-dark">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer id="contact" class="py-3 bg-dark text-white text-center">
