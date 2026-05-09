@@ -16,13 +16,13 @@ function setupClickToCopy(cardId, textId) {
         navigator.clipboard.writeText(text).then(() => {
             const p = card.querySelector('p');
             const oldText = p.innerText;
-            p.innerText = isEn ? "Copied! ✅" : "Skopírované! ✅";
+            p.innerText = isEn ? "Copied ☑️" : "Skopírované ☑️";
             
             setTimeout(() => { p.innerText = oldText; }, 2000);
         });
     });
 }
 
-// Potom už len voláš:
+// Volanie kopírovanie
 setupClickToCopy('copy-email', 'email-text');
 setupClickToCopy('copy-discord', 'discord-text');
