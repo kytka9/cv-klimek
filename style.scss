@@ -18,3 +18,26 @@ header {
 
 .skill-card { transition: transform 0.2s; }
 .skill-card:hover { transform: translateY(-5px); }
+
+
+// CSS PRE HOVER KONTAKT KARIET
+.contact-card {
+  transition: all 0.3s ease; // Plynulosť pre všetko
+  cursor: pointer;
+  background-color: white;
+
+  // Toto je "nesting" v SCSS (všetko pod týmto sa týka hoveru na kartu)
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    background-color: #f8f9fa;
+
+    // Tu si definuješ farby ikoniek pri hoveri
+    .fa-github { color: #333; }
+    .fa-linkedin { color: #0077b5; }
+    .fa-envelope { color: #009b55; }
+    .fa-file-pdf { color: #ff0000; }
+    .fa-discord { color: #5865F2; }
+    .fa-dev { color: #000; }
+  }
+}
